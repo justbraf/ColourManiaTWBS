@@ -1,0 +1,10 @@
+.icon-hover:hover {
+    /* transform: rotate(90deg); */
+    animation: refreshIcon 1s ease-in-out;
+}
+
+@keyframes refreshIcon {
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(90deg)}
+    50% {transform: rotate(135deg)}
+}
